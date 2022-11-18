@@ -129,6 +129,26 @@
   <ItemGroup>
     <ClCompile Include="ShaderVulkan.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MaterialReader.h" />
+    <ClInclude Include="VulkanShaderApp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="frag.spv" />
+    <None Include="shader.frag" />
+    <None Include="shader.vert" />
+    <None Include="vert.spv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="models\viking_room.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\au.png" />
+    <Image Include="textures\ghlogo.png" />
+    <Image Include="textures\smile.png" />
+    <Image Include="textures\textureOrg.jpg" />
+    <Image Include="textures\viking_room.png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

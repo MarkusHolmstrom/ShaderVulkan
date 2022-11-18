@@ -13,10 +13,63 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="models">
+      <UniqueIdentifier>{4c208cdb-ef4b-4eb3-82b0-bd44cc0b98c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textures">
+      <UniqueIdentifier>{fc347a71-09ec-4348-a459-bf822e3b98cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{56922bf6-b03a-4a6c-89b4-e5a6e87e827e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ShaderVulkan.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VulkanShaderApp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialReader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader.frag">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader.vert">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="frag.spv">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="vert.spv">
+      <Filter>shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="models\viking_room.obj">
+      <Filter>models</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\au.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="textures\ghlogo.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="textures\smile.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="textures\textureOrg.jpg">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="textures\viking_room.png">
+      <Filter>textures</Filter>
+    </Image>
   </ItemGroup>
 </Project>
